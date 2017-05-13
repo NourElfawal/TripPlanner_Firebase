@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="300dp">
+
+    <TextView
+
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:text="Trip Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewOfTripName"
+        android:layout_alignParentTop="true" />
+
+
+    <Button
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/startTripButton"
+         android:layout_marginTop="200dp"
+        android:text="Start Trip"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cancelTripButton"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="280dp"
+        android:text="cancel"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/laterTripButton"
+        android:text="Later"
+        android:layout_alignBaseline="@+id/cancelTripButton"
+        android:layout_alignBottom="@+id/cancelTripButton"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

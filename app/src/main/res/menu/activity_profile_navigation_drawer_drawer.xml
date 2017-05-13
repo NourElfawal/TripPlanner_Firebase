@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/upcoming1"
+            android:id="@+id/nav_upcoming"
+            android:title="Upcoming Trips" />
+
+        <item
+            android:icon="@drawable/past"
+
+            android:id="@+id/nav_past"
+            android:title="Past Trips" />
+
+        <item
+            android:icon="@drawable/add"
+
+            android:id="@+id/nav_add"
+            android:title="Add New Trip" />
+
+
+           <item
+               android:id="@+id/space"
+               android:title="ـــــــــــــــــــــــــــــــــــــــــــــــــــــ"
+               />
+
+            <item
+                android:icon="@drawable/edit"
+                android:id="@+id/nav_edit"
+                android:title="Edit Profile" />
+
+            <item
+                android:icon="@drawable/rate"
+                android:id="@+id/nav_rate"
+                android:title="Rate" />
+            <item
+                android:icon="@drawable/logout"
+                android:id="@+id/nav_logOut"
+                android:title="Log Out" />
+    <!--</item>-->
+    </group>
+</menu>
